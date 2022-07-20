@@ -1,27 +1,32 @@
 import React, { Component } from "react";
 import "./About.css";
-import profile_pic from "../assets/profile_pic.jpg";
+import profileImage from "../assets/javier_arango.JPG";
 
 export default class About extends Component {
   render() {
     return (
       <div>
-        {/* <p>Design your About me page </p> */}
-        <div class="split left">
+        <div className="split left">
           <div className="centered">
             <img
               className="profile_image"
-              src={profile_pic}
+              src={profileImage}
               alt="Profile Pic"
             ></img>
           </div>
         </div>
         <div className="split right">
           <div className="centered">
-            <div className="name_title">Your Name</div>
+            <div className="name_title">Javier Arango</div>
             <div className="brief_description">
-              Tell us about yourself in a few sentences. Tell us your interests
-              and say a fun fact about yourself.
+              I am a third-year Computer Science undergraduate student at the
+              University of Florida. Currently learning new technologies and
+              getting ideas to start new projects. Looking for opportunities to
+              join current or new projects to gain experience as a Software
+              Engineer and improve my programing skills.
+              <br /> <br />I enjoy working with new people and learning new
+              skills along the way. Skills/Interests: Java, C++, Python, SQL,
+              HTML, CSS, JavaScript, React, Machine Learning.
             </div>
           </div>
         </div>
